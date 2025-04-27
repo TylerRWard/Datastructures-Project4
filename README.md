@@ -5,7 +5,7 @@
 - **Name**: Tyler Ward  
 - **Date**: April 27, 2025  
 - **Platform**: macOS 
-- **Errors**: 
+- **Errors**: None that I know of
 
 IMPORTANT NOTE: must finish in 2 seconds or less
 
@@ -16,7 +16,7 @@ The problem involved partitioning a digit string into 9 innings to maximize the 
 
 I defined max_score(i, k) where i is the string index and k is innings remaining. It tries all valid segments lenths 1-10, converts each to a number and recursively solves for the remaining string with (k-1) innings. 
 
-I used a 2D DP table to cache results and a choice[i][k] array to track segment lengths for linescore reconstruciton. 
+I used a 2D DP table to cache results and a choice[i][k] array to track segment lengths for linescore reconstruction. 
 
 ---
 
